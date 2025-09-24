@@ -1,87 +1,86 @@
-# Welcome to React Router!
+# AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+**AI Resume Analyzer** is a web application that uses AI/NLP to analyze resumes and provide actionable insights.  
+It helps job seekers optimize their resumes for ATS (Applicant Tracking Systems), readability, and keyword relevance.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+<img width="1793" height="1074" alt="image" src="https://github.com/user-attachments/assets/49d0a218-e2db-4edd-9ab7-8743815e4ee2" />
 
-## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Live Demo 👉 [Resumemindai](https://resumemindai.vercel.app)
 
-## Getting Started
+---
 
+## 🚀 Features
+
+- 📄 Upload or paste your resume (Application/PDF Format)
+- 🤖 AI-powered analysis for skills, keywords, formatting
+- ✅ ATS-compatibility check with improvement tips
+- 📊 Resume scoring across multiple dimensions
+- 🔍 Keyword matching against job descriptions
+- 📝 Actionable suggestions for improvement
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js (v16+ recommended)  
+- npm (or yarn/pnpm)
+  
 ### Installation
 
-Install the dependencies:
-
 ```bash
+# Clone the repo
+git clone https://github.com/anirudh-satheesh/ai-resume-analyzer.git
+cd ai-resume-analyzer
+
+# Install dependencies
 npm install
 ```
-
 ### Development
-
-Start the development server with HMR:
-
-```bash
+```
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Visit the app at http://localhost:5173.
 
-## Building for Production
-
-Create a production build:
-
-```bash
+### Production Build
+```
 npm run build
 ```
 
-## Deployment
+Serve the optimized production build on your server or hosting platform.
 
-### Docker Deployment
+### 📦 Tech Stack
 
-To build and run using Docker:
+⚛️ Frontend: React + TypeScript + Vite
 
-```bash
-docker build -t my-app .
+🎨 Styling: Tailwind CSS
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+🖥️ Backend: Puter.js
 
-The containerized application can be deployed to any platform that supports Docker, including:
+🔑 AI APIs: Puter.js
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+### 🧪 Usage
 
-### DIY Deployment
+=> Upload or paste your resume
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+=> AI analyzes content and provides:
 
-Make sure to deploy the output of `npm run build`
+=> Missing keywords
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
+=> ATS feedback
 
-## Styling
+=> Readability improvements
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+=> Overall score
 
----
+=> Revise your resume and re-analyze until optimized
+
+<img width="1918" height="928" alt="image" src="https://github.com/user-attachments/assets/1cec7178-ebec-4be9-83c2-29ce3ff06787" />
+
+
+
+
 
 Built with ❤️ using React Router.
