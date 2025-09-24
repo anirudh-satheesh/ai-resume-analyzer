@@ -19,7 +19,7 @@ const ResumeCard = ({
   return (
     <Link
       to={`/resume/${id}`}
-      className="resume-card animate-in fade-in duration-1000"
+      className="resume-card animate-in fade-in duration-1000 w-[32%] max-lg:w-1/2 max-md:w-full"
     >
       <div className="resume-card-header flex items-center justify-between">
         <div className="flex flex-col gap-2">
